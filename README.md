@@ -1,5 +1,7 @@
 # Active Directory User Provisioning and Username Automation
 
+## Automated Active Directory user provisioning using PowerShell by importing employee data from a CSV file, generating usernames, and creating user accounts automatically.
+
 ## Overview
 This project demonstrates how to automate Active Directory user provisioning using PowerShell in a Windows Server 2022 lab environment. Instead of manually creating each user account, the script imports employee information from a CSV file, generates usernames, and provisions user accounts automatically.
 
@@ -23,14 +25,14 @@ Created Organizational Units (Finance, HR, IT, and Nursing) and security groups 
 <img width="445" height="334" alt="image" src="https://github.com/user-attachments/assets/b5d0e2bb-ec19-4f97-856e-e1ea1ddc53e4" />
 
 
-### Step 2: Validate Employee Data
+### Step 2: Import and Validate Employee Data
 Imported the employees.csv file into PowerShell and verified the employee records before automation.
 
 <img width="443" height="331" alt="image" src="https://github.com/user-attachments/assets/8aa3b057-b96b-4d06-bf65-580ad5e9684b" />
 
 
 ### Step 3: Execute the Automation Script
-Ran New-ADUsers.ps1 to create Active Directory users automatically from the CSV file.
+Executed the New-ADUsers.ps1 PowerShell script to import employee data, generate usernames, and create Active Directory user accounts automatically.
 
 <img width="443" height="334" alt="image" src="https://github.com/user-attachments/assets/d4b340dc-966a-46f8-b653-211b748d63db" />
 
