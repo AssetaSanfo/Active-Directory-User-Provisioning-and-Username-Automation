@@ -57,7 +57,6 @@ Confirmed that the script generated usernames successfully for all users.
 Through this project, I gained hands-on experience using PowerShell to automate Active Directory administration. I learned how to import data from CSV files, generate usernames, and reduce repetitive manual tasks through scripting.
 
 ## Future Improvements
-- Add screenshots for each project step.
 - Implement error handling.
 - Generate a provisioning log.
 - Automatically assign users to Organizational Units (OUs).
