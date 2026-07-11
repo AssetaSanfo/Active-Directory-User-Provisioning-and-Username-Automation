@@ -15,6 +15,32 @@ This project demonstrates how to automate Active Directory user provisioning usi
 - Windows PowerShell
 - CSV
 
+  ## Project Walkthrough
+
+### Step 1: Create Organizational Units and Security Groups
+Created Organizational Units (Finance, HR, IT, and Nursing) and security groups in Active Directory.
+
+<img width="445" height="334" alt="image" src="https://github.com/user-attachments/assets/b5d0e2bb-ec19-4f97-856e-e1ea1ddc53e4" />
+
+
+### Step 2: Validate Employee Data
+Imported the employees.csv file into PowerShell and verified the employee records before automation.
+
+<img width="443" height="331" alt="image" src="https://github.com/user-attachments/assets/8aa3b057-b96b-4d06-bf65-580ad5e9684b" />
+
+
+### Step 3: Execute the Automation Script
+Ran New-ADUsers.ps1 to create Active Directory users automatically from the CSV file.
+
+<img width="443" height="334" alt="image" src="https://github.com/user-attachments/assets/d4b340dc-966a-46f8-b653-211b748d63db" />
+
+
+### Step 4: Verify Generated Usernames
+Confirmed that the script generated usernames successfully for all users.
+
+<img width="443" height="337" alt="image" src="https://github.com/user-attachments/assets/aeef53b7-5f4e-41f1-b0c6-d31ba9e01b3c" />
+
+
 ## Files
 - **New-ADUsers.ps1** – PowerShell script used to automate user provisioning.
 - **employees.csv** – Sample employee data imported by the script.
